@@ -1,0 +1,94 @@
+/* Provide sufficient contrast against white background */
+a {
+    color: #0366d6;
+}
+
+code {
+    color: #E01A76;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+    margin: 10px;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 2.25rem !important;
+}
+
+.content {
+    padding-top: 4.5rem;
+}
+
+.card:hover {
+    cursor: pointer
+}
+
+.delete-button {
+    width: 3rem;
+    height: 3rem;
+    background-color: darkred !important;
+    opacity: 75%;
+    visibility: hidden;
+}
+
+.large-checkbox > input {
+    width: 3rem !important;
+    height: 3rem !important;
+}
+
+form {
+    margin: 5px;
+}
+
+    form > label {
+        display: block;
+    }
+
+    form > textarea {
+        margin-left: 10px;
+    }
+
+input {
+    margin: 10px;
+}
+
+.todo-form {
+    margin: 1rem;
+}
+
+.accordion {
+    margin: 1rem;
+}
+
+.parent {
+    font-weight: 700;
+}
+
+    .parent > .card-header {
+        background-color: #728bc7;
+    }
+
+.child {
+    margin-left: 2rem;
+    border: none;
+}
+
+    .child > .card-header {
+        background-color: #c5c8d0;
+    }
+
+.overdue {
+    background-color: #efe755 !important;
+}
+
+.selected {
+    border-left: .25rem solid black !important;
+    border-right: .25rem solid black !important;
+    border-top: .25rem solid black !important;
+    border-bottom: .25rem solid black !important;
+    border-radius: .5rem !important;
+}
